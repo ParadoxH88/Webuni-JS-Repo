@@ -1,0 +1,61 @@
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  background: #ffd89b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #19547b,
+    #ffd89b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #19547b,
+    #ffd89b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: rgb(192, 218, 218);
+}
+
+#completed-title {
+  font-weight: bold;
+}
+
+#completed {
+  margin: 15px 0;
+}
+
+.incomplete {
+  color: rgb(190, 60, 60);
+}
+
+.complete {
+  text-decoration: line-through;
+}
+
+#box {
+  /* border: 1px solid black; */
+  margin: auto 5px;
+  width: 50%;
+  text-align: center;
+}
+
+#todos {
+  text-align: left;
+  margin: 0 200px;
+  width: 60%;
+}
+
+.delete {
+  color: whitesmoke;
+  background-color: tomato;
+  border-radius: 50%;
+  border-color: transparent;
+}
+
+#hozzaad {
+  margin: 50px;
+}
+
+#hozzaaddif {
+  width: 35px;
+}
