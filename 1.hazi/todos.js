@@ -75,7 +75,12 @@ const addTodo = () => {
     const dif = Number(document.querySelector('#hozzaaddif').value);
     document.querySelector('#hozzaadtext').value = '';
     document.querySelector('#hozzaaddif').value = '';
-    todos.push({text, dif});
+    const todon = {
+      sorszam: todos{index},
+      name: text,
+      difficulty: dif,
+    } 
+    todos.push(todon);
     feltoltes();
   })
 }
